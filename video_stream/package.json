@@ -1,0 +1,30 @@
+{
+  "name": "video-streaming-server",
+  "version": "1.0.0",
+  "description": "How to create a Video Streaming Server in Node.js",
+  "main": "video_stream.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <18.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeLub/stream.git#main"
+  },
+  "keywords": [
+    "nodejs",
+    "video",
+    "streaming",
+    "server"
+  ],
+  "author": "Sergey Lubimov",
+  "homepage": "https://github.com/SeLub/stream/blob/main/README.md",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
